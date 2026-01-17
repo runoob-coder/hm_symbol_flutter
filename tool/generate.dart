@@ -64,6 +64,9 @@ void generate(List<List<String>> icons) {
 
               for (final icon in icons)
                 (FieldBuilder()
+                      ..docs.addAll([
+                        '/// HarmonyOS Symbol named "${icon[1]}". ',
+                      ])
                       ..static = true
                       ..modifier = FieldModifier.constant
                       ..type
