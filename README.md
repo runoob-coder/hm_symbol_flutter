@@ -16,8 +16,6 @@ Use with the [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html) cla
 
 Icons are identified by their name as listed below, e.g.
 
-[HarmonySymbols.HarmonyOS_Next].
-
 ```dart
 import 'package:hm_symbol/hm_symbol.dart';
 
