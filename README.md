@@ -8,7 +8,7 @@
 
 此外，它能够根据文本的粗细变化进行智能适配，确保了在不同文本粗细下，图标能够灵活适应，保持视觉的连贯性和一致性。
 
-![icons.png](./icons.png)
+![icons.png](https://github.com/runoob-coder/hm_symbol_flutter/raw/master/icons.png)
 
 ## Usage
 
