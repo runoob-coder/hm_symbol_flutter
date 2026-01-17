@@ -8,8 +8,8 @@ topics:
   - assets
   - icons
   - ui
-  - HarmonyOS
-  - Symbol
+  - harmonyOS
+  - symbol
 
 environment:
   sdk: ^3.10.7
