@@ -1,0 +1,34 @@
+name: hm_symbol
+description: "HarmonyOS Symbol 代表了 HarmonyOS 系统图标设计的一次重要演进。它通过简化的图形和直观的语义表达，不仅易于识别，同时融入了更多年轻化的设计理念，使得整体的视觉风格更加年轻和时尚。同时 HarmonyOS Symbol 还具备了字体属性，使其能够与系统字体无缝对接，确保了文本与图标的排版一致性。此外，它能够根据文本的粗细变化进行智能适配，确保了在不同文本粗细下，图标能够灵活适应，保持视觉的连贯性和一致性。"
+version: 1.0.0
+homepage: https://developer.huawei.com/consumer/cn/design/harmonyos-symbol/
+repository: https://github.com/runoob-coder/hm_symbol_flutter
+issue_tracker: https://github.com/runoob-coder/hm_symbol_flutter/issues
+topics:
+  - assets
+  - icons
+  - ui
+  - HarmonyOS
+  - Symbol
+  - 图标
+
+environment:
+  sdk: ^3.10.7
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  code_builder: ^4.11.1
+  dart_style: ^3.1.4
+
+flutter:
+   fonts:
+     - family: HM Symbol
+       fonts:
+         - asset: fonts/HMSymbolVF.ttf
