@@ -10,7 +10,6 @@ topics:
   - ui
   - HarmonyOS
   - Symbol
-  - 图标
 
 environment:
   sdk: ^3.10.7
