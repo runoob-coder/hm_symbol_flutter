@@ -22,6 +22,10 @@ import 'package:hm_symbol/hm_symbol.dart';
 Icon(HarmonySymbols.HarmonyOS);
 ```
 
-## Design Guides
+## Design Guides & Resources
 
 https://developer.huawei.com/consumer/cn/doc/design-guides/system-icons-0000001929854962
+
+https://docs.openharmony.cn/pages/v6.0/zh-cn/design/ux-design/visual-icons.md
+
+https://gitee.com/openharmony/docs/blob/master/zh-cn/design/ux-design/figures/OpenHarmony_Icons.zip
