@@ -1,6 +1,6 @@
 name: hm_symbol
 description: "HarmonyOS Symbol 华为鸿蒙系统图标库 for flutter。"
-version: 1.0.0
+version: 1.0.1
 homepage: https://developer.huawei.com/consumer/cn/design/harmonyos-symbol/
 repository: https://github.com/runoob-coder/hm_symbol_flutter
 issue_tracker: https://github.com/runoob-coder/hm_symbol_flutter/issues
