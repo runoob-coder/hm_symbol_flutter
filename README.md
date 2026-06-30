@@ -29,3 +29,9 @@ https://developer.huawei.com/consumer/cn/doc/design-guides/system-icons-00000019
 https://docs.openharmony.cn/pages/v6.0/zh-cn/design/ux-design/visual-icons.md
 
 https://gitee.com/openharmony/docs/blob/master/zh-cn/design/ux-design/figures/OpenHarmony_Icons.zip
+
+## ☕️ Buy Me a Coffee
+
+<a href="https://ko-fi.com/noob_coder" target="_blank">
+  <img height="36" src="https://storage.ko-fi.com/cdn/kofi1.png?v=3" alt="Buy Me a Coffee at ko-fi.com" />
+</a>

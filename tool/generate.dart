@@ -6,8 +6,6 @@ import 'package:dart_style/dart_style.dart';
 const fontFamily = 'HM Symbol';
 const fontPackage = 'hm_symbol';
 
-const url = '';
-
 void main() {
   List<List<String>> cmap = File('./tool/HMSymbol.nam')
       .readAsStringSync()
@@ -21,8 +19,9 @@ void main() {
 }
 
 const header =
-    '''
+    '''HarmonyOS Symbol
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: constant_identifier_names, unused_element
 // 
 // **************************************************************************
 // $fontPackage
@@ -41,6 +40,7 @@ void generate(List<List<String>> icons) {
               '/// ',
               '/// Use with the [Icon] class to show specific icons. Icons are identified by their name as listed below, e.g. ',
               '/// [HarmonySymbols.HarmonyOS_Next].',
+              '/// @formatter:off',
               '/// ',
             ])
             ..annotations.add(refer('staticIconProvider'))
@@ -96,5 +96,12 @@ void generate(List<List<String>> icons) {
         ).visitLibrary(library.build()).toString(),
       );
 
-  File('./lib/src/assets.g.dart').writeAsStringSync(code);
+  final finalCode =
+      '''
+// dart format off
+$code
+// dart format on
+''';
+
+  File('./lib/src/assets.g.dart').writeAsStringSync(finalCode);
 }

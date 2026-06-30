@@ -1,4 +1,7 @@
-// // GENERATED CODE - DO NOT MODIFY BY HAND
+// dart format off
+// HarmonyOS Symbol
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: constant_identifier_names, unused_element
 //
 // **************************************************************************
 // hm_symbol
@@ -10,6 +13,7 @@ import 'package:flutter/widgets.dart';
 ///
 /// Use with the [Icon] class to show specific icons. Icons are identified by their name as listed below, e.g.
 /// [HarmonySymbols.HarmonyOS_Next].
+/// @formatter:off
 ///
 @staticIconProvider
 abstract final class HarmonySymbols {
@@ -12317,3 +12321,5 @@ abstract final class HarmonySymbols {
   /// HarmonyOS Symbol named "arrowtriangle_left".
   static const arrowtriangle_left = IconData(986853, fontFamily: iconFont, fontPackage: iconFontPackage);
 }
+
+// dart format on

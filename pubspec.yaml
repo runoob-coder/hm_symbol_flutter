@@ -10,6 +10,9 @@ topics:
   - ui
   - harmony
   - symbol
+screenshots:
+  - description: "HarmonyOS Symbol icon library for Flutter. Contains nearly 4,000 icons!"
+    path: icons.png
 
 environment:
   sdk: ^3.10.7
