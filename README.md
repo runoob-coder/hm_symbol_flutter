@@ -33,5 +33,5 @@ https://gitee.com/openharmony/docs/blob/master/zh-cn/design/ux-design/figures/Op
 ## ☕️ Buy Me a Coffee
 
 <a href="https://ko-fi.com/noob_coder" target="_blank">
-  <img height="36" src="https://storage.ko-fi.com/cdn/kofi1.png?v=3" alt="Buy Me a Coffee at ko-fi.com" />
+  <img src="https://storage.ko-fi.com/cdn/kofi6.png" alt="Buy Me a Coffee at ko-fi.com" />
 </a>
