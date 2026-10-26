@@ -2,9 +2,13 @@
 
 English | [简体中文](https://github.com/runoob-coder/hm_symbol_flutter/blob/master/README_CN.md)
 
-[![pub package](https://img.shields.io/pub/v/hm_symbol.svg)](https://pub.dev/packages/hm_symbol)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![web demo](https://img.shields.io/badge/web%20demo-online-brightgreen.svg)](https://runoob-coder.github.io/hm_symbol_flutter/)
+[![Pub Version](https://img.shields.io/pub/v/hm_symbol.svg)](https://pub.dev/packages/hm_symbol)
+[![API Reference](https://img.shields.io/badge/API-Reference-0175C2.svg)](https://pub.dev/documentation/hm_symbol/latest/)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/runoob-coder/hm_symbol_flutter)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Flutter Demo](https://img.shields.io/badge/demo-Flutter-brightgreen.svg)](https://runoob-coder.github.io/hm_symbol_flutter/)
+[![CI](https://img.shields.io/github/actions/workflow/status/runoob-coder/hm_symbol_flutter/deploy_web.yml?label=CI)](https://github.com/runoob-coder/hm_symbol_flutter/actions/workflows/deploy_web.yml)
+[![GitHub stars](https://img.shields.io/github/stars/runoob-coder/hm_symbol_flutter.svg?style=social)](https://github.com/runoob-coder/hm_symbol_flutter)
 
 A Flutter icon library for [HarmonyOS Symbol](https://developer.huawei.com/consumer/cn/design/harmonyos-symbol/) — **3,844 icons** shipped as a single variable font.
 
