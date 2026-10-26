@@ -1,14 +1,15 @@
 name: hm_symbol
-description: "HarmonyOS Symbol icon library for Flutter. Contains nearly 4,000 icons!"
-version: 1.0.3
-homepage: https://github.com/runoob-coder/hm_symbol_flutter
+description: "HarmonyOS Symbol icon library for Flutter. 3,844 variable font icons with runtime search support."
+documentation: https://github.com/runoob-coder/hm_symbol_flutter#readme
+version: 1.1.0
+homepage: https://runoob-coder.github.io/hm_symbol_flutter
 repository: https://github.com/runoob-coder/hm_symbol_flutter
 issue_tracker: https://github.com/runoob-coder/hm_symbol_flutter/issues
 topics:
   - assets
   - icons
-  - ui
-  - harmony
+  - huawei
+  - harmony-os
   - symbol
 screenshots:
   - description: "HarmonyOS Symbol icon library for Flutter. Contains nearly 4,000 icons!"

@@ -16,6 +16,7 @@ void main() {
       .toList();
 
   generate(cmap);
+  generateCatalog(cmap);
 }
 
 const header =
@@ -104,4 +105,38 @@ $code
 ''';
 
   File('./lib/src/assets.g.dart').writeAsStringSync(finalCode);
+}
+
+/// Generates a name -> [IconData] lookup table, which powers search based
+/// experiences such as icon galleries and pickers.
+void generateCatalog(List<List<String>> icons) {
+  final buffer = StringBuffer()
+    ..writeln('// dart format off')
+    ..writeln('// HarmonyOS Symbol')
+    ..writeln('// GENERATED CODE - DO NOT MODIFY BY HAND')
+    ..writeln('// ignore_for_file: constant_identifier_names')
+    ..writeln()
+    ..writeln("import 'package:flutter/widgets.dart';")
+    ..writeln("import 'assets.g.dart';")
+    ..writeln()
+    ..writeln('/// A lookup table mapping every HarmonyOS Symbol name')
+    ..writeln('/// (e.g. `wifi`) to the matching [IconData].')
+    ..writeln('///')
+    ..writeln('/// Handy to build searchable galleries and icon pickers:')
+    ..writeln('///')
+    ..writeln('/// ```dart')
+    ..writeln('/// final matches = harmonySymbolCatalog.entries')
+    ..writeln("///     .where((entry) => entry.key.contains('wifi'));")
+    ..writeln('/// ```')
+    ..writeln('const Map<String, IconData> harmonySymbolCatalog = <String, IconData>{');
+
+  for (final icon in icons) {
+    buffer.writeln("  '${icon[1]}': HarmonySymbols.${icon[1]},");
+  }
+
+  buffer
+    ..writeln('};')
+    ..writeln('// dart format on');
+
+  File('./lib/src/catalog.g.dart').writeAsStringSync(buffer.toString());
 }

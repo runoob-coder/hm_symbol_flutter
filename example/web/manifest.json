@@ -1,0 +1,12 @@
+{
+  "name": "HarmonyOS Symbol",
+  "short_name": "HM Symbol",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F5F7",
+  "theme_color": "#007DFF",
+  "description": "Browse and search nearly 4,000 HarmonyOS Symbol icons for Flutter.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": []
+}
